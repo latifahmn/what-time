@@ -1,0 +1,44 @@
+#map-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.autocomplete-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.MuiTextField-root.autocomplete {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 20px;
+
+  .MuiFormLabel-root {
+    font-size: 20px;
+    margin-left: 18px;
+    margin-top: 18px;
+  }
+
+  .MuiFilledInput-root {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .MuiInputBase-input {
+    font-size: 24px;
+  }
+}
+
+.MuiTypography-root.time-display {
+  top: 50%;
+  position: relative;
+  text-align: center;
+
+  &.light {
+    color: #fff;
+  }
+
+  @media screen and (max-width: 600px) {
+    font-size: 70px;
+  }
+}
